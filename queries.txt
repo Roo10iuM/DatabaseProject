@@ -1,0 +1,20 @@
+1)
+Select "ADD_EDUCATION_GROUP"."StudentId", "STUDENTS"."StudentName", "STUDENTS"."Class" 
+from "ADD_EDUCATION_GROUP" join "STUDENTS" on "ADD_EDUCATION_GROUP"."StudentId" = "STUDENTS"."StudentId" 
+where "NameEdu" = 'Рисование' order by "StudentName"
+2)
+Select "STUDENTS"."StudentId", "STUDENTS"."StudentName", "STUDENTS"."Class", "STUDENTS"."ParentName", 
+	"STUDENTS"."ParentPhone", "TEACHERS"."TeacherName", "TEACHERS"."TeacherPhone"
+from "STUDENTS" join "TEACHERS" on "STUDENTS"."Class" = "TEACHERS"."Class"
+Where "STUDENTS"."StudentId" = 100042
+3)
+Select "EDUCATORS"."NameEdu", "EDUCATORS"."EducatorName" from "EDUCATORS"
+4)
+Select * from "ADD_EDUCATION_TIME" Order by "NameEdu"
+5)
+Select "ADD_EDUCATION_TIME".* from "ADD_EDUCATION_TIME" 
+where "NameEdu" in (select "NameEdu" from "EDUCATORS" where "EducatorId" = 502)
+order by "NameEdu"
+6)
+Select Distinct "NameEdu" from "ADD_EDUCATION_GROUP" Where "StudentId" = 100042
+

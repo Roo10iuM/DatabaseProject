@@ -1,0 +1,35 @@
+CREATE TABLE "TEACHERS" (
+  "TeacherId" integer NOT NULL,
+  "TeacherName" varchar(100) NOT NULL,
+  "Class" varchar(3) PRIMARY KEY,
+  "TeacherPhone" varchar(11) NOT NULL
+);
+
+CREATE TABLE "EDUCATORS" (
+  "EducatorId" integer PRIMARY KEY,
+  "EducatorName" varchar(100) NOT NULL,
+  "EducatorPhone" varchar(11) NOT NULL,
+  "NameEdu" varchar(100) UNIQUE
+);
+
+CREATE TABLE "STUDENTS" (
+  "StudentId" integer PRIMARY KEY,
+  "StudentName" varchar(100) NOT NULL,
+  "Class" varchar(3) REFERENCES "TEACHERS"("Class"),
+  "ParentName" varchar(100) NOT NULL,
+  "ParentPhone" varchar(11) NOT NULL
+);
+
+CREATE TABLE "ADD_EDUCATION_TIME" (
+  "NameEdu" varchar(100) REFERENCES "EDUCATORS"("NameEdu"),
+  "DOTWeek" varchar(2) NOT NULL,
+  "Time" time NOT NULL,
+  "ClassRoom" integer NOT NULL,
+  UNIQUE("DOTWeek", "Time", "ClassRoom")
+);
+
+CREATE TABLE "ADD_EDUCATION_GROUP" (
+  "NameEdu" varchar(100) REFERENCES "EDUCATORS"("NameEdu"),
+  "StudentId" integer REFERENCES "STUDENTS"("StudentId"),
+  PRIMARY KEY("NameEdu", "StudentId")
+);

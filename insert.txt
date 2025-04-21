@@ -1,0 +1,223 @@
+INSERT INTO "TEACHERS"("TeacherId", "TeacherName", "Class", "TeacherPhone")
+VALUES (100, 'Агафонова Александра Ильинична', '2a', '89998683897');
+INSERT INTO "TEACHERS"("TeacherId", "TeacherName", "Class", "TeacherPhone")
+VALUES (101, 'Демина Арина Арсеньевна', '2b', '89991415227');
+INSERT INTO "TEACHERS"("TeacherId", "TeacherName", "Class", "TeacherPhone")
+VALUES (102, 'Новикова Анна Евгеньевна', '3a', '89990493188');
+INSERT INTO "TEACHERS"("TeacherId", "TeacherName", "Class", "TeacherPhone")
+VALUES (103, 'Петухова София Егоровна', '3b', '89997592119');
+INSERT INTO "TEACHERS"("TeacherId", "TeacherName", "Class", "TeacherPhone")
+VALUES (104, 'Седова Дарья Дмитриевна', '4a', '89997736606');
+INSERT INTO "TEACHERS"("TeacherId", "TeacherName", "Class", "TeacherPhone")
+VALUES (105, 'Фомина София Кирилловна', '4b', '89995737906');
+
+
+
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100000, 'Беляев Роман Глебович', '2a', 'Беляев Владимир Вадимович', '89990375913');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100001, 'Глушков Дмитрий Егорович', '2b', 'Глушков Денис Александрович', '89997341352');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100002, 'Григорьев Арсений Кириллович', '3a', 'Григорьев Глеб Михайлович', '89998260408');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100003, 'Евдокимов Дмитрий Дмитриевич', '3b', 'Евдокимов Макар Михайлович', '89990553425');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100004, 'Зуев Кирилл Маркович', '4a', 'Зуев Ярослав Егорович', '89995205446');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100005, 'Иванов Максим Богданович', '4b', 'Иванов Артём Михайлович', '89997131651');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100006, 'Козырев Андрей Артёмович', '2a', 'Козырев Владимир Александрович', '89998762852');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100007, 'Кондрашов Григорий Григорьевич', '2b', 'Кондрашов Даниил Тимофеевич', '89990834089');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100008, 'Кондрашов Павел Егорович', '3a', 'Кондрашов Владимир Демидович', '89991925488');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100009, 'Круглов Никита Серафимович', '3b', 'Круглов Александр Артёмович', '89990136742');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100010, 'Кудрявцев Михаил Захарович', '4a', 'Кудрявцев Матвей Михайлович', '89992881300');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100011, 'Кудрявцев Степан Михайлович', '4b', 'Кудрявцев Вячеслав Романович', '89999380186');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100012, 'Кузьмин Андрей Георгиевич', '2a', 'Кузьмин Фёдор Маркович', '89998982864');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100013, 'Митрофанов Даниил Юрьевич', '2b', 'Митрофанов Дмитрий Максимович', '89998745270');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100014, 'Михеев Иван Тимофеевич', '3a', 'Михеев Тимофей Петрович', '89995969073');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100015, 'Нечаев Степан Артёмович', '3b', 'Нечаев Арсений Иванович', '89990192965');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100016, 'Николаев Максим Даниилович', '4a', 'Николаев Илья Дмитриевич', '89995403141');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100017, 'Новиков Михаил Захарович', '4b', 'Новиков Артём Матвеевич', '89992644359');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100018, 'Павлов Гордей Дмитриевич', '2a', 'Павлов Филипп Германович', '89995685314');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100019, 'Смирнов Александр Евгеньевич', '2b', 'Смирнов Павел Михайлович', '89993463021');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100020, 'Цветков Даниил Даниилович', '3a', 'Цветков Михаил Максимович', '89997198518');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100021, 'Шишкин Михаил Ярославович', '3b', 'Шишкин Павел Михайлович', '89997221810');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100022, 'Яковлев Тихон Алексеевич', '4a', 'Яковлев Арсений Матвеевич', '89997980134');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100023, 'Андреева Мария Георгиевна', '4b', 'Андреева Мария Тимофеевна', '89998189495');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100024, 'Аникина София Константиновна', '2a', 'Аникина Ксения Максимовна', '89990596673');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100025, 'Быкова Алиса Сергеевна', '2b', 'Быкова Вероника Адамовна', '89990559763');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100026, 'Власова Мария Ильинична', '3a', 'Власова Василиса Богдановна', '89995256501');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100027, 'Воронова Анастасия Павловна', '3b', 'Воронова Маргарита Петровна', '89992936987');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100028, 'Герасимова Анна Львовна', '4a', 'Герасимова Кристина Ярославовна', '89993750594');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100029, 'Демина Ирина Владиславовна', '4b', 'Демина Алёна Александровна', '89994962596');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100030, 'Жукова Александра Демидовна', '2a', 'Жукова Анна Максимовна', '89991287391');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100031, 'Захарова Маргарита Кирилловна', '2b', 'Захарова Алёна Константиновна', '89999518397');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100032, 'Иванова Ульяна Мироновна', '3a', 'Иванова Таисия Александровна', '89997373210');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100033, 'Иванова Анна Сергеевна', '3b', 'Иванова Мария Артемьевна', '89991697568');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100034, 'Измайлова Лидия Михайловна', '4a', 'Измайлова Юлия Михайловна', '89998652677');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100035, 'Карпова Татьяна Захаровна', '4b', 'Карпова Анна Елисеевна', '89992936813');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100036, 'Косарева Александра Марковна', '2a', 'Косарева Мирослава Захаровна', '89995197295');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100037, 'Крылова Екатерина Матвеевна', '2b', 'Крылова Татьяна Александровна', '89995411109');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100038, 'Муравьева Анастасия Данииловна', '3a', 'Муравьева Мария Макаровна', '89997523299');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100039, 'Никулина Майя Ильинична', '3b', 'Никулина Анастасия Ярославовна', '89998217444');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100040, 'Новикова София Григорьевна', '4a', 'Новикова Вероника Макаровна', '89995378333');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100041, 'Орехова Виктория Матвеевна', '4b', 'Орехова Мирослава Демидовна', '89998419509');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100042, 'Павлова Мария Петровна', '2a', 'Павлова Елизавета Артёмовна', '89995168153');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100043, 'Полякова Мария Андреевна', '2b', 'Полякова Анна Павловна', '89998472923');
+INSERT INTO "STUDENTS"("StudentId", "StudentName", "Class", "ParentName", "ParentPhone")
+VALUES (100044, 'Полякова Майя Дмитриевна', '3a', 'Полякова Вероника Всеволодовна', '89995039468');
+
+
+
+INSERT INTO "EDUCATORS"("EducatorId", "EducatorName", "EducatorPhone", "NameEdu")
+VALUES (500, 'Давыдова Серафима Артёмовна', '89998946684', 'Рисование');
+INSERT INTO "EDUCATORS"("EducatorId", "EducatorName", "EducatorPhone", "NameEdu")
+VALUES (501, 'Зубова Дарья Михайловна', '89991694987', 'Танцы');
+INSERT INTO "EDUCATORS"("EducatorId", "EducatorName", "EducatorPhone", "NameEdu")
+VALUES (502, 'Корнеева Яна Александровна', '89996983958', 'Журналистика');
+
+
+
+INSERT INTO "ADD_EDUCATION_TIME"("NameEdu", "DOTWeek", "Time", "ClassRoom")
+VALUES ('Рисование', 'пн', '17:00', '101');
+INSERT INTO "ADD_EDUCATION_TIME"("NameEdu", "DOTWeek", "Time", "ClassRoom")
+VALUES ('Танцы', 'вт', '16:00', '102');
+INSERT INTO "ADD_EDUCATION_TIME"("NameEdu", "DOTWeek", "Time", "ClassRoom")
+VALUES ('Журналистика', 'ср', '16:30', '103');
+INSERT INTO "ADD_EDUCATION_TIME"("NameEdu", "DOTWeek", "Time", "ClassRoom")
+VALUES ('Рисование', 'чт', '16:30', '101');
+INSERT INTO "ADD_EDUCATION_TIME"("NameEdu", "DOTWeek", "Time", "ClassRoom")
+VALUES ('Танцы', 'пт', '16:45', '102');
+INSERT INTO "ADD_EDUCATION_TIME"("NameEdu", "DOTWeek", "Time", "ClassRoom")
+VALUES ('Журналистика', 'сб', '16:00', '103');
+
+
+
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100000);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100007);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100014);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100021);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100028);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100035);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100042);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100004);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100011);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100018);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100025);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100032);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100039);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100001);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100008);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100015);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100022);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100029);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100036);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100043);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100005);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100012);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100019);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100026);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100033);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100040);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100002);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100009);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100016);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100023);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100030);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100037);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100044);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100006);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100013);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100020);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100027);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100034);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100041);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100003);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100010);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100017);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Рисование', 100024);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Танцы', 100031);
+INSERT INTO "ADD_EDUCATION_GROUP"("NameEdu", "StudentId")
+VALUES ('Журналистика', 100038);
+
